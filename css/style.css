@@ -621,6 +621,11 @@ tbody tr:hover {
   color: var(--bone);
   font-style: italic;
 }
+.chapter-prose strong {
+  color: var(--bone);
+  font-weight: 600;
+  letter-spacing: .01em;
+}
 
 /* ── Chapter Art (inline images) ── */
 .chapter-art {
