@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Citadel Chronicle</title>
-  <meta name="description" content="A BG3-inspired chronicle page for a half-drow sorlock built from a Citadel Oracle reading." />
+  <title>Zevrin &middot; Citadel Chronicle</title>
+  <meta name="description" content="The chronicle of Zevrin &mdash; half-drow sorlock, the Dancer's Champion &mdash; built from a Citadel Oracle reading." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/style.css" />
 </head>
 <body>
@@ -28,49 +28,133 @@
           </div>
         </div>
         <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch to light mode">
-          <span aria-hidden="true">☾</span>
+          <span aria-hidden="true">&#9790;</span>
         </button>
       </nav>
 
       <section class="hero">
         <div class="hero-copy reveal">
-          <p class="kicker">Half-Drow • Sorlock • Great Old One / Sorcerer</p>
-          <h2>The Dancer's Champion</h2>
-          <p class="lede">Built from an eight-card Citadel Oracle reading and a three-card magic spread, this chronicle tracks a watchful, theatrical half-drow whose power comes through defiance, revelation, and the dangerous refusal to stay still.</p>
+          <p class="kicker">Half-Drow &bull; Sorlock &bull; Great Old One / Sorcerer</p>
+          <h2>Zevrin</h2>
+          <p class="hero-subtitle">The Dancer&rsquo;s Champion</p>
+          <p class="lede">Built from an eight-card Citadel Oracle reading and a three-card magic spread. This chronicle tracks a watchful, theatrical half-drow whose power comes through defiance, revelation, and the dangerous refusal to stay still.</p>
           <div class="hero-actions">
-            <a href="#identity" class="button button-primary">Enter the dossier</a>
-            <a href="#journal" class="button button-secondary">Open chronicle log</a>
+            <a href="#chronicle" class="button button-primary">Enter the chronicle</a>
+            <a href="#oracle" class="button button-secondary">View the spread</a>
           </div>
         </div>
         <figure class="hero-art reveal frame-glow">
-          <img src="./assets/Full-Body-Prompt.jpg" alt="Full-body portrait of a half-drow sorlock framed by cosmic magic." width="875" height="1312" loading="eager" decoding="async" />
+          <img src="./assets/Full-Body-Prompt.jpg" alt="Full-body portrait of Zevrin, a half-drow sorlock framed by cosmic magic." width="875" height="1312" loading="eager" decoding="async" />
         </figure>
       </section>
     </header>
 
     <main id="main">
+
+      <!-- ═══ Identity Dossier ═══ -->
       <section id="identity" class="panel panel-grid reveal">
         <div class="panel-heading">
           <p class="section-tag">Identity</p>
           <h2>Character dossier</h2>
         </div>
         <figure class="portrait frame-glow">
-          <img src="./assets/Portrait.jpg" alt="Profile portrait of the half-drow character in deep shadow and silver light." width="875" height="1312" loading="lazy" decoding="async" />
+          <img src="./assets/Portrait.jpg" alt="Profile portrait of Zevrin in deep shadow and silver light." width="875" height="1312" loading="lazy" decoding="async" />
         </figure>
         <div class="stat-card">
           <div class="identity-grid">
+            <div><span>Name</span><strong>Zevrin</strong></div>
             <div><span>Species</span><strong>Half-Drow</strong></div>
-            <div><span>Gender</span><strong>Male</strong></div>
             <div><span>Class</span><strong>Sorlock</strong></div>
             <div><span>Patron</span><strong>Great Old One</strong></div>
-            <div><span>Alignment</span><strong>Chaotic Neutral → Good</strong></div>
+            <div><span>Alignment</span><strong>Chaotic Neutral &rarr; Good</strong></div>
             <div><span>Background</span><strong>Charlatan / Criminal</strong></div>
           </div>
           <p class="body-copy">At his core he is disciplined, self-possessed, and dangerous in a way that looks almost elegant. He survives by preparation, performs certainty as armor, and gradually becomes the kind of person who stands in the gap for others once he stops hiding behind precision.</p>
         </div>
       </section>
 
-      <section class="panel reveal">
+      <!-- ═══ CHRONICLE ═══ -->
+      <div id="chronicle">
+
+      <!-- ═══ I. Origin ═══ -->
+      <section class="panel chapter reveal">
+        <div class="panel-heading narrow">
+          <p class="section-tag">Chapter I</p>
+          <h2>Origin &mdash; The Woman Who Left the Dark</h2>
+        </div>
+        <div class="chapter-prose">
+          <p>His mother&rsquo;s name was Verath. She was drow &mdash; full-blooded, surface-side, and entirely deliberate about both. She did not stumble out of the Underdark. She walked out. The distinction mattered to her and she made sure he understood it early: she was not a refugee. She was not lost. She had made a calculation and acted on it, and she did not apologize for the consequences.</p>
+          <p>She was not warm in the way people expect mothers to be warm. She was precise. She taught him to read a room before he entered it, to know the weight of silence, to understand that charm was a tool and tools were only as good as the hand holding them. He did not always like her. He respected her completely. The difference between those two things is something he learned from her as well.</p>
+          <p>His father was a human man whose name Zevrin knows and does not use. He was not a bad man. He was simply not built for the life Verath carried with her, and he left when Zevrin was young enough that the leaving registered as weather rather than wound &mdash; something that happened to the environment, not to him specifically. He has not looked for him. He has not needed to.</p>
+          <p>He was raised in the in-between places &mdash; not the Underdark, not any settled human city that would have had opinions about what he looked like. Port towns. Trade routes. Margins. Verath moved, and so he moved, and by the time he was old enough to understand that other children had roots, he had already decided roots were for people who didn&rsquo;t know better.</p>
+          <p>She gave him the name Zevrin. It is the only thing from her he has kept without question.</p>
+        </div>
+      </section>
+
+      <!-- ═══ II. The Cartographer's Lesson ═══ -->
+      <section class="panel chapter reveal">
+        <div class="panel-heading narrow">
+          <p class="section-tag">Chapter II</p>
+          <h2>The Cartographer&rsquo;s Lesson &mdash; What He Found When He Looked</h2>
+        </div>
+        <div class="chapter-prose">
+          <p>Verath disappeared when Zevrin was seventeen. Not gradually. Not with warning. One morning she was there and by evening she was not, and nothing she left behind explained the gap.</p>
+          <p>He looked for her. This is the only time in his adult life he has done something that he would now classify as going in without a map. He was young enough to believe that thoroughness could substitute for information, that if he just covered enough ground something would resolve. It did not work like that.</p>
+          <p>He found enough to stop looking. He will not say what he found. He has told people, when pressed, that she is <em>gone</em> &mdash; not that she is dead, because he does not know that, but gone in the sense of beyond reach, beyond retrieval, beyond the kind of help he is capable of providing. The distinction is precise and he maintains it carefully.</p>
+          <p>After this he did not fall apart. He made a decision, which is something different. He decided that he would never again move toward something without knowing the terrain first. He has not broken this rule once since.</p>
+          <p>This is the architecture under everything: the obsessive preparation, the intelligence gathering, the refusal to be surprised. It is not personality. It is policy, adopted at seventeen in response to a specific lesson, and he has never seen a reason to revise it.</p>
+        </div>
+      </section>
+
+      <!-- ═══ III. The Pact ═══ -->
+      <section class="panel chapter reveal">
+        <div class="panel-heading narrow">
+          <p class="section-tag">Chapter III</p>
+          <h2>The Pact &mdash; What He Reached For and What Reached Back</h2>
+        </div>
+        <figure class="chapter-art frame-glow reveal">
+          <img src="./assets/Casting.jpg" alt="Zevrin conjuring a bloom of pale violet cosmic magic between his hands." width="875" height="1312" loading="lazy" decoding="async" />
+        </figure>
+        <div class="chapter-prose">
+          <p>He was nineteen. He was alone, which was not unusual, and he was in a place that did not have a name on any map he had seen, which was also not unusual &mdash; he had been moving through the margins since Verath disappeared, doing work that paid and didn&rsquo;t ask questions and kept him sharp.</p>
+          <p>Something spoke to him. He does not describe it as a voice. He describes it, when he describes it at all, as a <em>direction</em> &mdash; a pull in the architecture of his awareness, like a door he had not noticed becoming visible. He had enough knowledge by then to understand what this was and what it meant and what it would cost.</p>
+          <p>He negotiated. This is the part he is most certain about and most willing to say plainly: he did not accept what was offered, he responded with terms. He cannot fully articulate what leverage he had in that conversation, but he has always operated from the position that he had some &mdash; and the entity accepted terms that a supplicant would not have been offered. He considers this significant.</p>
+          <p>The pact functions. His magic is real and it is his and he uses it without apology. What he performs in maintaining the connection &mdash; the forms, the invocations, the specific textures of how he reaches for power &mdash; he does with precision and without devotion, the way a person might maintain a piece of equipment they do not love but cannot afford to lose.</p>
+        </div>
+      </section>
+
+      <!-- ═══ IV. The Name ═══ -->
+      <section class="panel chapter reveal">
+        <div class="panel-heading narrow">
+          <p class="section-tag">Chapter IV</p>
+          <h2>The Name &mdash; Just Zevrin</h2>
+        </div>
+        <div class="chapter-prose">
+          <p>He goes by one name. When people ask for more he gives them a look that communicates, without hostility, that the question was a mistake. He is not ashamed of either bloodline. He does not claim either fully. Taking a surname would mean choosing a lineage and the lineages available to him both require explanations he has decided are nobody&rsquo;s business.</p>
+          <p>Verath gave him the name. That&rsquo;s enough. That&rsquo;s the whole inheritance and he has decided it is sufficient.</p>
+        </div>
+      </section>
+
+      <!-- ═══ V. Where He Is When BG3 Begins ═══ -->
+      <section class="panel chapter reveal">
+        <div class="panel-heading narrow">
+          <p class="section-tag">Chapter V</p>
+          <h2>Where He Is When BG3 Begins</h2>
+        </div>
+        <figure class="chapter-art frame-glow reveal">
+          <img src="./assets/Casting-2-Forming-the-spell.jpg" alt="Zevrin immersed in swirling violet spell light, the veil thinning around him." width="875" height="1312" loading="lazy" decoding="async" />
+        </figure>
+        <div class="chapter-prose">
+          <p>He is in his mid-to-late twenties. He has been moving through the Sword Coast for several years doing work that uses the skills he has &mdash; information gathering, negotiation, occasionally the kind of persuasion that requires a patron-backed eldritch blast to close the argument. He is not affiliated with any organization that would claim him publicly. He has arrangements with several that prefer it that way.</p>
+          <p>He was on his way somewhere specific when the nautiloid took him. He had a plan. He had prepared. He was mid-map, as it were, which is the specific indignity of the illithid abduction, and the one he is least gracious about.</p>
+          <p>He does not know why the tadpole chose him or what it wants. He has already decided this is a resource problem and begun calculating accordingly.</p>
+        </div>
+      </section>
+
+      </div><!-- /chronicle -->
+
+      <!-- ═══ Oracle Spread ═══ -->
+      <section id="oracle" class="panel reveal">
         <div class="panel-heading narrow">
           <p class="section-tag">Oracle spread</p>
           <h2>The reading that built him</h2>
@@ -79,16 +163,17 @@
         <div class="card-grid">
           <article class="oracle-card"><span class="position">Tone Setter</span><h3>Fate</h3><p>Unexpected help approaches from outside the expected pattern; the story opens with intervention and guidance rather than isolation.</p></article>
           <article class="oracle-card"><span class="position">The Soul</span><h3>The Warrior</h3><p>He acts when protection is required. His discipline is not aggression but readiness, conviction, and the refusal to flinch.</p></article>
-          <article class="oracle-card"><span class="position">The Shadow</span><h3>The Spymaster · Reversed</h3><p>Secrets and surveillance protect him, but they also destabilize trust. Hidden information has become both method and prison.</p></article>
+          <article class="oracle-card"><span class="position">The Shadow</span><h3>The Spymaster &middot; Reversed</h3><p>Secrets and surveillance protect him, but they also destabilize trust. Hidden information has become both method and prison.</p></article>
           <article class="oracle-card"><span class="position">The Origin</span><h3>The Cartographer</h3><p>He was shaped by danger and now maps every room, route, and possible failure before he commits to movement.</p></article>
           <article class="oracle-card"><span class="position">Power</span><h3>The Thief</h3><p>He claims what he needs instead of waiting for permission. His magic feels seized, bargained for, or stolen from a structure that never meant to offer it freely.</p></article>
           <article class="oracle-card"><span class="position">The Manner</span><h3>The Dancer</h3><p>What the world sees is beauty under control: theatrical, deliberate, charismatic, and entirely unwilling to apologize for taking up space.</p></article>
           <article class="oracle-card"><span class="position">The Wound</span><h3>The Catalyst</h3><p>He cannot tolerate stagnation. When systems fail, he breaks them, then bears the cost of what change actually destroys.</p></article>
-          <article class="oracle-card"><span class="position">The Code</span><h3>The Diviner · Reversed</h3><p>He knows patience matters and overrides it anyway. The deeper block is not ignorance, but avoidance and urgency colliding.</p></article>
+          <article class="oracle-card"><span class="position">The Code</span><h3>The Diviner &middot; Reversed</h3><p>He knows patience matters and overrides it anyway. The deeper block is not ignorance, but avoidance and urgency colliding.</p></article>
           <article class="oracle-card"><span class="position">The Arc</span><h3>The Champion</h3><p>His story points toward defense and advocacy. Once he chooses a cause, he does not half-commit.</p></article>
         </div>
       </section>
 
+      <!-- ═══ Magic Spread ═══ -->
       <section class="panel spell-layout reveal">
         <div class="panel-heading narrow">
           <p class="section-tag">Magic spread</p>
@@ -97,7 +182,7 @@
         <div class="spell-columns">
           <div class="spell-text">
             <div class="mini-cards">
-              <article class="mini-card"><span>Nature of magic</span><h3>The Priest · Reversed</h3><p>The ritual form remains, but belief is fractured. He knows the language of power even where faith has been stripped from it.</p></article>
+              <article class="mini-card"><span>Nature of magic</span><h3>The Priest &middot; Reversed</h3><p>The ritual form remains, but belief is fractured. He knows the language of power even where faith has been stripped from it.</p></article>
               <article class="mini-card"><span>The cost</span><h3>The Waker</h3><p>Every use of magic reveals something that cannot be unseen. Clarity itself becomes the tax.</p></article>
               <article class="mini-card"><span>The relationship</span><h3>The Poet</h3><p>His magic is witness before weapon. It names the truth and turns observation into force.</p></article>
             </div>
@@ -112,11 +197,12 @@
             </div>
           </div>
           <figure class="casting-panel frame-glow">
-            <img src="./assets/Casting.jpg" alt="The half-drow character conjuring a bloom of pale violet cosmic magic between his hands." width="875" height="1312" loading="lazy" decoding="async" />
+            <img src="./assets/Casting.jpg" alt="Zevrin conjuring a bloom of pale violet cosmic magic." width="875" height="1312" loading="lazy" decoding="async" />
           </figure>
         </div>
       </section>
 
+      <!-- ═══ Ability Profile ═══ -->
       <section class="panel reveal">
         <div class="panel-heading narrow">
           <p class="section-tag">Ability profile</p>
@@ -128,17 +214,18 @@
               <tr><th>Ability</th><th>Score</th><th>Reading</th></tr>
             </thead>
             <tbody>
-              <tr><td>Charisma</td><td>16–17</td><td>The social and magical center of the build; where the Dancer lives.</td></tr>
+              <tr><td>Charisma</td><td>16&ndash;17</td><td>The social and magical center of the build; where the Dancer lives.</td></tr>
               <tr><td>Intelligence</td><td>14</td><td>Cartographer origin and Spymaster shadow; reads rooms and patterns.</td></tr>
               <tr><td>Dexterity</td><td>14</td><td>Half-drow agility, grace, and practiced survival instinct.</td></tr>
               <tr><td>Constitution</td><td>13</td><td>Enough endurance to maintain concentration when things turn ugly.</td></tr>
-              <tr><td>Wisdom</td><td>10–11</td><td>Average judgment, often overridden by urgency and self-directed pressure.</td></tr>
+              <tr><td>Wisdom</td><td>10&ndash;11</td><td>Average judgment, often overridden by urgency and self-directed pressure.</td></tr>
               <tr><td>Strength</td><td>8</td><td>Not built for blunt force; danger comes through poise and spellcraft.</td></tr>
             </tbody>
           </table>
         </div>
       </section>
 
+      <!-- ═══ Visual Language ═══ -->
       <section class="panel dual-visual reveal">
         <div class="panel-heading narrow">
           <p class="section-tag">Visual language</p>
@@ -147,7 +234,7 @@
         </div>
         <div class="visual-grid">
           <figure class="frame-glow">
-            <img src="./assets/Casting-2-Forming-the-spell.jpg" alt="Atmospheric portrait of the half-drow immersed in swirling violet spell light." width="875" height="1312" loading="lazy" decoding="async" />
+            <img src="./assets/Casting-2-Forming-the-spell.jpg" alt="Atmospheric portrait of Zevrin immersed in swirling violet spell light." width="875" height="1312" loading="lazy" decoding="async" />
           </figure>
           <div class="reference-box">
             <h3>Reference pillars</h3>
@@ -162,6 +249,7 @@
         </div>
       </section>
 
+      <!-- ═══ Campaign Journal ═══ -->
       <section id="journal" class="panel journal reveal">
         <div class="panel-heading narrow">
           <p class="section-tag">Chronicle log</p>
@@ -186,6 +274,7 @@
           </article>
         </div>
       </section>
+
     </main>
   </div>
 

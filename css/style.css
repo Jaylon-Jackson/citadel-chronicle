@@ -160,6 +160,15 @@ body::before {
   color: var(--bone);
   letter-spacing: -.01em;
 }
+.hero-subtitle {
+  font-family: var(--font-serif);
+  font-size: clamp(1rem, 2vw, 1.3rem);
+  font-weight: 500;
+  font-style: italic;
+  color: var(--violet);
+  letter-spacing: .04em;
+  margin-top: -.4rem;
+}
 .lede {
   font-size: 1rem;
   color: var(--silver);
@@ -593,6 +602,37 @@ tbody tr:hover {
 .reference-box li strong {
   color: var(--bone);
   font-weight: 600;
+}
+
+/* ── Chapter Prose ── */
+.chapter-prose {
+  max-width: 720px;
+}
+.chapter-prose p {
+  font-size: .95rem;
+  color: rgba(232,227,239,.78);
+  line-height: 1.95;
+  margin-bottom: 1.2rem;
+}
+.chapter-prose p:last-child {
+  margin-bottom: 0;
+}
+.chapter-prose em {
+  color: var(--bone);
+  font-style: italic;
+}
+
+/* ── Chapter Art (inline images) ── */
+.chapter-art {
+  max-width: 720px;
+  border-radius: 6px;
+  overflow: hidden;
+  margin-bottom: 2.5rem;
+}
+.chapter-art img {
+  width: 100%;
+  display: block;
+  border-radius: 6px;
 }
 
 /* ── Journal ── */
